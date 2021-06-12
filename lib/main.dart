@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   final game = MyGame();
+
   runApp(GameWidget(
     game: game
   ));
